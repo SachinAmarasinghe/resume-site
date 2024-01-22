@@ -1,0 +1,74 @@
+@import "../../../variables.scss";
+
+.about {
+  .heading {
+    border-right: 1px solid $light;
+    border-bottom: 1px solid $light;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    h2 {
+      font-family: $display-font;
+      margin: 0;
+    }
+    .socials {
+      display: flex;
+      a {
+        border-left: 1px solid $light;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        &:hover {
+          background-color: $primary;
+        }
+      }
+    }
+  }
+  .content {
+    border-bottom: 1px solid $light;
+    display: flex;
+    justify-content: space-between;
+    .description {
+      padding: 40px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      p {
+        margin: 0;
+        max-width: 800px;
+      }
+    }
+    .contact {
+      display: flex;
+      flex-direction: column;
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+          margin: 0;
+          padding: 0;
+          border-bottom: 1px solid $light;
+          border-left: 1px solid $light;
+          &:last-child {
+            border-bottom: 0;
+          }
+        }
+      }
+      a {
+        padding: 20px 50px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        color: $light;
+        text-decoration: none;
+        &:hover {
+          background-color: $primary;
+        }
+      }
+    }
+  }
+}
