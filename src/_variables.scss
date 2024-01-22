@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto+Condensed:wght@200;300;500;600&display=swap");
+
+$display-font: "Climate Crisis", sans-serif;
+$body-font: "Roboto Condensed", sans-serif;
+$base-font-size: 16px;
+$font-scale: 1.25;
+
+$primary: #150e42;
+$secondary: #120926;
+$dark: #090916;
+$light: #ededed;
+
+$base-spacing: 1rem;
+$half-spacing: $base-spacing * 0.5;
+$double-spacing: $base-spacing * 2;
+$triple-spacing: $base-spacing * 3;
+$quadruple-spacing: $base-spacing * 4;

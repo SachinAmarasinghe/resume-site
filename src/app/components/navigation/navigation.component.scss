@@ -1,0 +1,46 @@
+@import "../../../variables.scss";
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid $light;
+  .logo {
+    font-family: $display-font;
+    font-size: 25px;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+    li {
+      font-size: 25px;
+      font-weight: 300;
+      position: relative;
+      cursor: pointer;
+      &::after {
+        display: none;
+        content: "";
+        position: absolute;
+        height: 5px;
+        bottom: -32px;
+        left: 0;
+        right: 0;
+        background-color: $light;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+      &:hover::after {
+        display: block;
+      }
+      &.active {
+        &::after {
+          display: block;
+        }
+      }
+    }
+  }
+}

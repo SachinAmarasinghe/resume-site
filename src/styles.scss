@@ -1,1 +1,170 @@
-/* You can add global styles to this file, and also import other style files */
+@import "./variables.scss";
+
+body {
+  font-family: $body-font;
+  font-weight: 300;
+  background-color: $dark;
+  color: $light;
+  font-size: $base-font-size;
+  margin: 0;
+}
+
+h1.display {
+  font-family: $display-font;
+  font-size: $base-font-size * $font-scale * $font-scale * $font-scale *
+    $font-scale * $font-scale * $font-scale * $font-scale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $body-font;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: $base-font-size * $font-scale * $font-scale * $font-scale *
+    $font-scale * $font-scale * $font-scale;
+}
+
+h2 {
+  font-size: $base-font-size * $font-scale * $font-scale * $font-scale *
+    $font-scale * $font-scale;
+}
+
+h3 {
+  font-size: $base-font-size * $font-scale * $font-scale * $font-scale *
+    $font-scale;
+}
+
+h4 {
+  font-size: $base-font-size * $font-scale * $font-scale * $font-scale;
+}
+
+h5 {
+  font-size: $base-font-size * $font-scale * $font-scale;
+}
+
+h6 {
+  font-size: $base-font-size * $font-scale;
+}
+p {
+  font-size: $base-font-size;
+}
+
+small {
+  font-size: 0.75rem;
+}
+
+// spacing utility classes
+.mt-1 {
+  margin-top: $base-spacing;
+}
+.mt-2 {
+  margin-top: $double-spacing;
+}
+.mt-3 {
+  margin-top: $triple-spacing;
+}
+
+.mb-1 {
+  margin-bottom: $base-spacing;
+}
+.mb-2 {
+  margin-bottom: $double-spacing;
+}
+.mb-3 {
+  margin-bottom: $triple-spacing;
+}
+
+.ml-1 {
+  margin-left: $base-spacing;
+}
+.ml-2 {
+  margin-left: $double-spacing;
+}
+.ml-3 {
+  margin-left: $triple-spacing;
+}
+
+.mr-1 {
+  margin-right: $base-spacing;
+}
+.mr-2 {
+  margin-right: $double-spacing;
+}
+.mr-3 {
+  margin-right: $triple-spacing;
+}
+
+.pt-1 {
+  padding-top: $base-spacing;
+}
+.pt-2 {
+  padding-top: $double-spacing;
+}
+.pt-3 {
+  padding-top: $triple-spacing;
+}
+
+.pb-1 {
+  padding-bottom: $base-spacing;
+}
+.pb-2 {
+  padding-bottom: $double-spacing;
+}
+.pb-3 {
+  padding-bottom: $triple-spacing;
+}
+
+.pl-1 {
+  padding-left: $base-spacing;
+}
+.pl-2 {
+  padding-left: $double-spacing;
+}
+.pl-3 {
+  padding-left: $triple-spacing;
+}
+
+.pr-1 {
+  padding-right: $base-spacing;
+}
+.pr-2 {
+  padding-right: $double-spacing;
+}
+.pr-3 {
+  padding-right: $triple-spacing;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+
+  // Mobile-first media query
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+
+  // Medium devices (tablets, landscape phones)
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  // Large devices (desktops)
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+
+  // Extra large devices (large desktops)
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+}
