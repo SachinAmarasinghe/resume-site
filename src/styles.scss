@@ -25,37 +25,45 @@ h6 {
   font-weight: 400;
 }
 
-h1 {
+h1,
+.h1 {
   font-size: $base-font-size * $font-scale * $font-scale * $font-scale *
     $font-scale * $font-scale * $font-scale;
 }
 
-h2 {
+h2,
+.h2 {
   font-size: $base-font-size * $font-scale * $font-scale * $font-scale *
     $font-scale * $font-scale;
 }
 
-h3 {
+h3,
+.h3 {
   font-size: $base-font-size * $font-scale * $font-scale * $font-scale *
     $font-scale;
 }
 
-h4 {
+h4,
+.h4 {
   font-size: $base-font-size * $font-scale * $font-scale * $font-scale;
 }
 
-h5 {
+h5,
+.h5 {
   font-size: $base-font-size * $font-scale * $font-scale;
 }
 
-h6 {
+h6,
+.h6 {
   font-size: $base-font-size * $font-scale;
 }
-p {
+p,
+.p {
   font-size: $base-font-size;
 }
 
-small {
+small,
+.small {
   font-size: 0.75rem;
 }
 

@@ -1,0 +1,31 @@
+@import "../../../variables.scss";
+
+.hero {
+  padding: 0px 20px;
+  border-bottom: 1px solid $light;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  .text {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    h1,
+    h2 {
+      max-width: 600px;
+    }
+  }
+  .image {
+    border-left: 1px solid $light;
+    padding-left: 40px;
+    padding-top: 40px;
+    width: 100%;
+    min-width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+}
