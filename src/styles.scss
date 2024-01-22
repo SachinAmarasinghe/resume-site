@@ -176,3 +176,35 @@ small,
     max-width: 1140px;
   }
 }
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+
+  &.btn-primary {
+    background-color: $primary;
+    color: $light;
+    border: 1px solid $primary;
+    &:hover {
+      background-color: darken($primary, 10%);
+    }
+  }
+
+  &.btn-outline {
+    color: $light;
+    border: 1px solid $light;
+    background-color: transparent;
+
+    &:hover {
+      color: $dark;
+      background-color: $light;
+      border-color: $light;
+    }
+  }
+}
