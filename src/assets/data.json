@@ -1,0 +1,49 @@
+{
+    "logo":"logo.png",
+    "nav_links":[
+        {"name":"About","link":"#about"},
+        {"name":"Skills","link":"#skills"},
+        {"name":"Portfolio","link":"#portfolio"},
+        {"name":"Experience","link":"#experience"},
+        {"name":"Education","link":"#education"},
+        {"name":"Reference","link":"#reference"},
+        {"name":"Contact","link":"#contact"}
+    ],
+    "about":[
+        {"first_name":"Sachin"},
+        {"last_name":"Amarasinghe"},
+        {"short_description":"I'm a front-end developer with experience in UI design and development and I'm passionate about creating intuitive and visually appealing user experiences."},
+        {"long_description":"A front-end developer with experience in UI design and development, I am passionate about creating intuitive and visually appealing user experiences. My skillset includes HTML, CSS, JavaScript, and frameworks such as React, GatsbyJS, NextJS and Strapi. I have a strong foundation in design principles and use tools such as Adobe Creative Suite and Figma to bring my ideas to life. I am a team player and thrive in collaborative environments, constantly seeking to improve my skills and stay up-to-date with the latest industry trends. In my previous roles, I have successfully delivered numerous web and mobile applications, consistently meeting project deadlines and exceeding client expectations. I am excited to continue growing as a developer and making an impact through my work."},
+        {"email":"sachinamarasinghe@outlook.com"},
+        {"phone":"905-782-9457"},
+        {"location":"Toronto, Canada"},
+        {"languages":["English","Sinhala"]},
+        {"socials":[
+            {"name":"linkedin","link":"","icon":"linkedin.svg"},
+            {"name":"github","link":"","icon":"github.svg"},
+            {"name":"dribbble","link":"","icon":"dribbble.svg"},
+            {"name":"facebook","link":"","icon":"facebook.svg"},
+            {"name":"instagram","link":"","icon":"instagram.svg"}
+        ]}
+    ],
+    "portfolio":[
+        {"name":"","description":"","link":"","image":"","project_year":""},
+        {"name":"","description":"","link":"","image":"","project_year":""},
+        {"name":"","description":"","link":"","image":"","project_year":""},
+        {"name":"","description":"","link":"","image":"","project_year":""},
+        {"name":"","description":"","link":"","image":"","project_year":""}
+    ],
+    "experience":[
+        {"company":"","location":"","website":"","logo":"","description":"","role":"","timeline":"","responsibilities":["rsp","rsp2"]},
+        {"company":"","location":"","website":"","logo":"","description":"","role":"","timeline":"","responsibilities":["rsp","rsp2"]},
+        {"company":"","location":"","website":"","logo":"","description":"","role":"","timeline":"","responsibilities":["rsp","rsp2"]},
+        {"company":"","location":"","website":"","logo":"","description":"","role":"","timeline":"","responsibilities":["rsp","rsp2"]},
+        {"company":"","location":"","website":"","logo":"","description":"","role":"","timeline":"","responsibilities":["rsp","rsp2"]}
+    ],
+    "skills":[
+        {"name":"html","logo":"","percentage":0.6,"experience":2},
+        {"name":"html","logo":"","percentage":0.6,"experience":2},
+        {"name":"html","logo":"","percentage":0.6,"experience":2},
+        {"name":"html","logo":"","percentage":0.6,"experience":2}
+    ]
+}
