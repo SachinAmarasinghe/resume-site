@@ -1,0 +1,35 @@
+@import "../../../variables.scss";
+
+.experience{
+    border-top: 1px solid $light;
+    .heading {
+        border-bottom: 1px solid $light;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        margin: 8px 0;
+        &::after{
+            content: '';
+            height: 1px;
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            right: 0;
+            border-top: 1px solid $light;
+        }
+        &::before{
+            content: '';
+            height: 1px;
+            position: absolute;
+            top: -3px;
+            left: 0;
+            right: 0;
+            border-top: 1px solid $light;
+        }
+        h2 {
+          font-family: $display-font;
+          margin: 0;
+        }
+    }
+}
