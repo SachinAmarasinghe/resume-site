@@ -1,0 +1,43 @@
+@import "../../../variables.scss";
+
+.skills {
+  border-bottom: 1px solid $light;
+  .heading {
+    border-right: 1px solid $light;
+    border-bottom: 1px solid $light;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    h2 {
+      font-family: $display-font;
+      margin: 0;
+      text-align: center;
+    }
+  }
+  .skill_list {
+    padding: 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+    .skill {
+      width: calc(50% - 40px);
+      border: 1px solid $light;
+      padding: 10px;
+      .skill_bar {
+        margin-top: 5px;
+        border: 1px solid $light;
+        height: 30px;
+        position: relative;
+        div {
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          background-color: $light;
+        }
+      }
+    }
+  }
+}

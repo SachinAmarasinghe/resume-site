@@ -26,6 +26,12 @@
             {"name":"instagram","link":"","icon":"instagram.svg"}
         ]}
     ],
+    "skills":[
+        {"name":"html","logo":"","percentage":0.6,"experience":2},
+        {"name":"html","logo":"","percentage":0.6,"experience":2},
+        {"name":"html","logo":"","percentage":0.6,"experience":2},
+        {"name":"html","logo":"","percentage":0.6,"experience":2}
+    ],
     "portfolio":[
         {"name":"","description":"","link":"","image":"","project_year":""},
         {"name":"","description":"","link":"","image":"","project_year":""},
@@ -39,11 +45,6 @@
         {"company":"","location":"","website":"","logo":"","description":"","role":"","timeline":"","responsibilities":["rsp","rsp2"]},
         {"company":"","location":"","website":"","logo":"","description":"","role":"","timeline":"","responsibilities":["rsp","rsp2"]},
         {"company":"","location":"","website":"","logo":"","description":"","role":"","timeline":"","responsibilities":["rsp","rsp2"]}
-    ],
-    "skills":[
-        {"name":"html","logo":"","percentage":0.6,"experience":2},
-        {"name":"html","logo":"","percentage":0.6,"experience":2},
-        {"name":"html","logo":"","percentage":0.6,"experience":2},
-        {"name":"html","logo":"","percentage":0.6,"experience":2}
     ]
+    
 }
