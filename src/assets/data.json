@@ -39,12 +39,56 @@
         {"name":"","description":"","link":"","image":"","project_year":""},
         {"name":"","description":"","link":"","image":"","project_year":""}
     ],
-    "experience":[
-        {"company":"","location":"","website":"","logo":"","description":"","role":"","timeline":"","responsibilities":["rsp","rsp2"]},
-        {"company":"","location":"","website":"","logo":"","description":"","role":"","timeline":"","responsibilities":["rsp","rsp2"]},
-        {"company":"","location":"","website":"","logo":"","description":"","role":"","timeline":"","responsibilities":["rsp","rsp2"]},
-        {"company":"","location":"","website":"","logo":"","description":"","role":"","timeline":"","responsibilities":["rsp","rsp2"]},
-        {"company":"","location":"","website":"","logo":"","description":"","role":"","timeline":"","responsibilities":["rsp","rsp2"]}
+    "experience": [
+        {
+            "company": "ABC Tech",
+            "location": "Toronto, Canada",
+            "website": "http://www.abctech.com",
+            "logo": "https://picsum.photos/200/100",
+            "description": "A leading technology company specializing in innovative solutions.",
+            "role": "Frontend Developer",
+            "timeline": "January 2020 - Present",
+            "responsibilities": ["Develop and maintain user interfaces", "Collaborate with design teams"]
+        },
+        {
+            "company": "XYZ Solutions",
+            "location": "Toronto, Canada",
+            "website": "http://www.xyzsolutions.com",
+            "logo": "https://picsum.photos/200/100",
+            "description": "Innovative software solutions provider, dedicated to pushing technological boundaries.",
+            "role": "Senior Software Engineer",
+            "timeline": "June 2018 - December 2019",
+            "responsibilities": ["Lead software development projects", "Implement scalable and efficient solutions"]
+        },
+        {
+            "company": "Tech Innovators",
+            "location": "Toronto, Canada",
+            "website": "http://www.techinnovators.com",
+            "logo": "https://picsum.photos/200/100",
+            "description": "Pioneering in cutting-edge technologies, shaping the future of software development.",
+            "role": "Software Engineer",
+            "timeline": "March 2016 - May 2018",
+            "responsibilities": ["Contribute to full-stack development", "Debug and optimize existing code"]
+        },
+        {
+            "company": "Coding Co.",
+            "location": "Toronto, Canada",
+            "website": "http://www.codingco.com",
+            "logo": "https://picsum.photos/200/100",
+            "description": "A software development company committed to delivering high-quality code and solutions.",
+            "role": "Associate Software Engineer",
+            "timeline": "July 2015 - February 2016",
+            "responsibilities": ["Assist in software design and development", "Perform code reviews"]
+        },
+        {
+            "company": "Internship Hub",
+            "location": "Toronto, Canada",
+            "website": "http://www.internshiphub.com",
+            "logo": "https://picsum.photos/200/100",
+            "description": "Connecting talent with opportunities through hands-on learning experiences.",
+            "role": "Intern",
+            "timeline": "May 2014 - August 2014",
+            "responsibilities": ["Learn and apply programming concepts", "Support development tasks"]
+        }
     ]
-    
 }
