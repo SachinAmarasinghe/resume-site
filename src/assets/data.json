@@ -90,5 +90,10 @@
             "timeline": "May 2014 - August 2014",
             "responsibilities": ["Learn and apply programming concepts", "Support development tasks"]
         }
+    ],
+    "education":[
+        {"institute":"Humber College","location":"Toronto","timeline":"2023 Reading","title":"Certificate- Full Stack .NET Cloud Developer"},
+        {"institute":"Sheffield Hallam University","location":"UK","timeline":"2015-2016","title":"Bachelor of Engineering in Software Engineering"},
+        {"institute":"Sri Lanka Institute of Information Technology","location":"Colombo","timeline":"2013-2015","title":"Diploma in Information Technology"}
     ]
 }

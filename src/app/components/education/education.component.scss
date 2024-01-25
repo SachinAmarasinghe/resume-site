@@ -13,4 +13,30 @@
       margin: 0;
     }
   }
+  .education-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 0;
+    .education-card {
+      border: 1px solid $light;
+      width: 100%;
+      max-width: 1000px;
+      h5 {
+        margin: 0;
+        padding: 20px;
+        font-family: $display-font;
+        border-bottom: 1px solid $light;
+      }
+      small {
+        text-align: right;
+        display: block;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 20px;
+      }
+    }
+  }
 }

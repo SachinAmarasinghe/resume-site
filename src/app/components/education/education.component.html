@@ -2,4 +2,16 @@
   <div class="heading">
     <h2>Education</h2>
   </div>
+
+  <div class="education-wrapper">
+    @for (education of educations;track education.id){
+    <div class="education-card">
+      <h5>{{ education.title }}</h5>
+      <small
+        >{{ education.institute }} ({{ education.location }}) -
+        <i>{{ education.timeline }}</i></small
+      >
+    </div>
+    }
+  </div>
 </section>
