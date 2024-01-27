@@ -1,0 +1,16 @@
+@import "../../../variables.scss";
+
+.references {
+  border-top: 1px solid $light;
+  .heading {
+    border-right: 1px solid $light;
+    border-bottom: 1px solid $light;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    h2 {
+      font-family: $display-font;
+      margin: 0;
+    }
+  }
+}
